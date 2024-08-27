@@ -1,0 +1,16 @@
+<!-- panel.xml -->
+<Panel>
+    <!-- Botones para encender/apagar -->
+    <Button id="battery_switch" x="50" y="100" width="50" height="30" on_click="toggleBattery()" />
+    <Button id="apu_switch" x="110" y="100" width="50" height="30" on_click="toggleAPU()" />
+    <Button id="generator1_switch" x="170" y="100" width="50" height="30" on_click="toggleGenerator(1)" />
+    <Button id="generator2_switch" x="230" y="100" width="50" height="30" on_click="toggleGenerator(2)" />
+    <Button id="main_bus_switch" x="290" y="100" width="50" height="30" on_click="toggleBus('main')" />
+    <Button id="aux_bus_switch" x="350" y="100" width="50" height="30" on_click="toggleBus('aux')" />
+
+    <!-- Indicadores -->
+    <Indicator id="battery_indicator" x="50" y="150" width="200" height="30" />
+    <Indicator id="apu_indicator" x="50" y="190" width="200" height="30" />
+    <Indicator id="generators_indicator" x="50" y="230" width="200" height="30" />
+    <Indicator id="buses_indicator" x="50" y="270" width="200" height="30" />
+</Panel>
